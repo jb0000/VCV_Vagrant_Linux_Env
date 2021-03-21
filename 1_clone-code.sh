@@ -7,9 +7,9 @@
 
 # Code is stored in a directory shared between the VM and the host.
 CODE_ROOT=/vagrant
-WORKING_DIR_NAME=eurorack-modules
+WORKING_DIR_NAME=AudibleInstruments
 DEV_ENV="${CODE_ROOT}/${WORKING_DIR_NAME}"
-MI_REPO="https://github.com/pichenettes/eurorack.git"
+MI_REPO="https://github.com/VCVRack/AudibleInstruments.git"
 
 # test if the dev_env directory already exists
 if [ -d "$DEV_ENV" ]; then
